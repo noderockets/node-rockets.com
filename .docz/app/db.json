@@ -1,0 +1,410 @@
+{
+  "config": {
+    "title": "Node Rockets",
+    "description": "Node Rockets",
+    "menu": [],
+    "version": "1.0.0",
+    "repository": null,
+    "native": false,
+    "codeSandbox": true,
+    "themeConfig": {
+      "colors": {
+        "primary": "#6A1B9A"
+      }
+    },
+    "separator": "-",
+    "dest": "/dist"
+  },
+  "props": [
+    {
+      "key": "docs/Home.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Home",
+          "methods": [],
+          "actualName": "Home"
+        }
+      ]
+    },
+    {
+      "key": "src/ui/Hero.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Hero",
+          "methods": [],
+          "actualName": "Hero"
+        }
+      ]
+    },
+    {
+      "key": "src/ui/Page.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Page",
+          "methods": [],
+          "actualName": "Page"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "key": "docs/hello.mdx",
+      "value": {
+        "name": "Home",
+        "route": "/",
+        "id": "7e99a465304b4fa28dd9a7edad06b56f",
+        "filepath": "docs/hello.mdx",
+        "link": "",
+        "slug": "docs-hello",
+        "menu": "",
+        "headings": []
+      }
+    },
+    {
+      "key": "docs/launcher/launch-pad.mdx",
+      "value": {
+        "name": "Launch Pad",
+        "route": "/launcher/pad",
+        "menu": "Launcher",
+        "id": "be1329c3d48d86c15f6fbe0bb32dde8c",
+        "filepath": "docs/launcher/launch-pad.mdx",
+        "link": "",
+        "slug": "docs-launcher-launch-pad",
+        "headings": [
+          {
+            "slug": "the-launch-pad",
+            "depth": 1,
+            "value": "The Launch Pad"
+          },
+          {
+            "slug": "goals",
+            "depth": 2,
+            "value": "Goals"
+          },
+          {
+            "slug": "launcher-base",
+            "depth": 3,
+            "value": "Launcher Base"
+          },
+          {
+            "slug": "retentionrelease-mechanism",
+            "depth": 3,
+            "value": "Retention/Release Mechanism"
+          },
+          {
+            "slug": "other-options",
+            "depth": 2,
+            "value": "Other Options"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/launcher/launcher-control.mdx",
+      "value": {
+        "name": "Launcher Control System",
+        "route": "/launcher/control-system",
+        "menu": "Launcher",
+        "id": "4cbc3cd316aad95e783fa9e179f4f737",
+        "filepath": "docs/launcher/launcher-control.mdx",
+        "link": "",
+        "slug": "docs-launcher-launcher-control",
+        "headings": [
+          {
+            "slug": "launcher-control-system",
+            "depth": 1,
+            "value": "Launcher Control System"
+          },
+          {
+            "slug": "goals",
+            "depth": 2,
+            "value": "Goals"
+          },
+          {
+            "slug": "plans",
+            "depth": 2,
+            "value": "Plans"
+          },
+          {
+            "slug": "measuring-air-pressure",
+            "depth": 3,
+            "value": "Measuring Air Pressure"
+          },
+          {
+            "slug": "pressurizing-and-launching",
+            "depth": 3,
+            "value": "Pressurizing and Launching"
+          },
+          {
+            "slug": "building-the-circuits",
+            "depth": 3,
+            "value": "Building the Circuits"
+          },
+          {
+            "slug": "using-a-spark-core",
+            "depth": 3,
+            "value": "Using a Spark Core"
+          },
+          {
+            "slug": "building-the-valve-assembly",
+            "depth": 3,
+            "value": "Building the Valve Assembly"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/launcher/launcher-software.mdx",
+      "value": {
+        "name": "Launcher Software",
+        "route": "/launcher/software",
+        "menu": "Launcher",
+        "id": "79efc3ef858c0ca9b42716c7ef0db63a",
+        "filepath": "docs/launcher/launcher-software.mdx",
+        "link": "",
+        "slug": "docs-launcher-launcher-software",
+        "headings": [
+          {
+            "slug": "launcher-software",
+            "depth": 1,
+            "value": "Launcher Software"
+          },
+          {
+            "slug": "goals",
+            "depth": 2,
+            "value": "Goals"
+          },
+          {
+            "slug": "plans",
+            "depth": 2,
+            "value": "Plans"
+          },
+          {
+            "slug": "the-software",
+            "depth": 2,
+            "value": "The Software"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/rockets/advanced.mdx",
+      "value": {
+        "name": "Advanced Rocket",
+        "route": "/rocket/advanced",
+        "menu": "Rocket",
+        "id": "e7794e7435a630c9a380c4297b07d73e",
+        "filepath": "docs/rockets/advanced.mdx",
+        "link": "",
+        "slug": "docs-rockets-advanced",
+        "headings": [
+          {
+            "slug": "building-a-better-rocket",
+            "depth": 1,
+            "value": "Building a Better Rocket"
+          },
+          {
+            "slug": "larger-engine",
+            "depth": 3,
+            "value": "Larger Engine"
+          },
+          {
+            "slug": "add-a-nozzle",
+            "depth": 3,
+            "value": "Add a Nozzle"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/rockets/control.mdx",
+      "value": {
+        "name": "Rocket Control System",
+        "route": "/rocket/control-system",
+        "menu": "Rocket",
+        "id": "92f83a10afe41150ee581b87bafd5c72",
+        "filepath": "docs/rockets/control.mdx",
+        "link": "",
+        "slug": "docs-rockets-control",
+        "headings": [
+          {
+            "slug": "rocket-control-system",
+            "depth": 1,
+            "value": "Rocket Control System"
+          },
+          {
+            "slug": "goals",
+            "depth": 2,
+            "value": "Goals"
+          },
+          {
+            "slug": "plans",
+            "depth": 2,
+            "value": "Plans"
+          },
+          {
+            "slug": "gpio-pins",
+            "depth": 2,
+            "value": "GPIO Pins"
+          },
+          {
+            "slug": "altimeter",
+            "depth": 2,
+            "value": "Altimeter"
+          },
+          {
+            "slug": "servo",
+            "depth": 2,
+            "value": "Servo"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/rockets/rocket.mdx",
+      "value": {
+        "name": "Rocket",
+        "route": "/rocket",
+        "menu": "Rocket",
+        "id": "1dfeb3ba094770e94f8f8c3231e3dcb3",
+        "filepath": "docs/rockets/rocket.mdx",
+        "link": "",
+        "slug": "docs-rockets-rocket",
+        "headings": [
+          {
+            "slug": "rocket",
+            "depth": 1,
+            "value": "Rocket"
+          },
+          {
+            "slug": "rocket-physics",
+            "depth": 3,
+            "value": "Rocket Physics"
+          },
+          {
+            "slug": "construction",
+            "depth": 2,
+            "value": "Construction"
+          },
+          {
+            "slug": "engine",
+            "depth": 3,
+            "value": "Engine"
+          },
+          {
+            "slug": "nose-cone",
+            "depth": 3,
+            "value": "Nose Cone"
+          },
+          {
+            "slug": "fins",
+            "depth": 3,
+            "value": "Fins"
+          },
+          {
+            "slug": "payload-compartment",
+            "depth": 3,
+            "value": "Payload Compartment"
+          },
+          {
+            "slug": "parachute",
+            "depth": 3,
+            "value": "Parachute"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/rockets/sd-card.mdx",
+      "value": {
+        "name": "SD Card",
+        "route": "/rocket/sd-card",
+        "menu": "Rocket",
+        "id": "3c7d56b612f66548babf8f67bba03e86",
+        "filepath": "docs/rockets/sd-card.mdx",
+        "link": "",
+        "slug": "docs-rockets-sd-card",
+        "headings": [
+          {
+            "slug": "setting-up-your-sd-card",
+            "depth": 1,
+            "value": "Setting up your SD Card"
+          },
+          {
+            "slug": "configure-raspian",
+            "depth": 2,
+            "value": "Configure Raspian"
+          },
+          {
+            "slug": "install-node-via-nvm",
+            "depth": 2,
+            "value": "Install node via nvm"
+          },
+          {
+            "slug": "install-git",
+            "depth": 2,
+            "value": "Install git"
+          },
+          {
+            "slug": "install-pigpio",
+            "depth": 2,
+            "value": "Install PIGPIO"
+          },
+          {
+            "slug": "configure-ssh",
+            "depth": 2,
+            "value": "Configure SSH"
+          },
+          {
+            "slug": "install-i2c-tools",
+            "depth": 2,
+            "value": "Install i2c tools"
+          },
+          {
+            "slug": "sudo-raspi-config",
+            "depth": 2,
+            "value": "sudo raspi-config"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/rockets/software.mdx",
+      "value": {
+        "name": "Rocket Software",
+        "route": "/rocket/software",
+        "menu": "Rocket",
+        "id": "0979aecc6213901a5686874433a6145c",
+        "filepath": "docs/rockets/software.mdx",
+        "link": "",
+        "slug": "docs-rockets-software",
+        "headings": [
+          {
+            "slug": "rocket-software",
+            "depth": 1,
+            "value": "Rocket Software"
+          },
+          {
+            "slug": "goals",
+            "depth": 2,
+            "value": "Goals"
+          },
+          {
+            "slug": "plan",
+            "depth": 2,
+            "value": "Plan"
+          },
+          {
+            "slug": "the-software",
+            "depth": 2,
+            "value": "The Software"
+          }
+        ]
+      }
+    }
+  ]
+}
