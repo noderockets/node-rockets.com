@@ -1,3 +1,5 @@
+import { css } from "docz-plugin-css";
+
 export default {
   title: "Node Rockets",
   description: "Node Rockets",
@@ -6,5 +8,11 @@ export default {
       primary: "#6A1B9A"
     }
   },
-  dest: '/dist'
+  dest: "/dist",
+  plugins: [
+    css({
+      preprocessor: "stylus",
+      cssmodules: true
+    })
+  ]
 };
