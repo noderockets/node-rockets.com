@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import useScrollPosition from "use-scroll-position";
-import styles from "./rocket.module.styl";
+import styles from "./Rocket.module.styl";
 import classNames from "classnames";
 let lastScrollPosition = -1;
 
