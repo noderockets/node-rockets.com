@@ -4,5 +4,6 @@
   "builds": [
     { "src": "package.json", "use": "@now/static-build" }
   ],
-  "alias": ["node-rockets.com", "www.node-rockets.com"]
+  "alias": ["node-rockets.com", "www.node-rockets.com"],
+  "scope": "node-rockets.com"
 }
