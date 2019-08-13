@@ -3,20 +3,20 @@ import Rocket from "./Rocket";
 import styles from "./Home.module.styl";
 import LazyHero from "react-lazy-hero";
 import rocket from "./images/spacex-71873-unsplash.jpg";
-
+import ReactPlayer from "react-player";
+import rocketImg from './images/output/rocket-finished-1.jpg'
 export default function Home() {
   return (
     <div>
       <Rocket />
       <header className={styles.hero} />
-      <LazyHero imageSrc={rocket} opacity="0.3">
-        <h1>Hero</h1>
-      </LazyHero>
+      <ReactPlayer url="https://www.youtube.com/watch?v=F1oO05_ic0U" width="90%"/>
       <section>
         <h2>What is Node Rockets?</h2>
         <p>
           We create water rockets out of 2 liter bottles and control them with
           the power of node.js.
+          <img src={rocketImg} alt="Node Rocket" width="90%"/>
         </p>
         <h2>Events</h2>
         <ul>

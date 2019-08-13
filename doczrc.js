@@ -3,7 +3,7 @@ import { css } from "docz-plugin-css";
 export default {
   title: "Node Rockets",
   logo: {
-    src: "docs/images/NodeRockets-Logo-Final-03.png",
+    src: "/docs/images/NodeRockets-Logo-Final-03.png",
     width: null
   },
   description: "Node Rockets",
