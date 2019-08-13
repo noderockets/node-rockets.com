@@ -29,7 +29,7 @@ export default function Home() {
           You can build your own rocket, launch system and parachute deploy
           system.
         </p>
-        <a href="/rocket">Click here for tutorial</a>
+        <a href="/js-conf/intro">Click here for tutorial</a>
         <h2>Contribute</h2>
         <p>You can also help contribute by participating with us:</p>
         <ul>
